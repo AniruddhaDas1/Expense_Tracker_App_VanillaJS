@@ -18,6 +18,9 @@ html {
 
 body {
   background-color: var(--primary);
+  background-image: url(/Assets/galaxy-tree-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   display: grid;
@@ -30,9 +33,10 @@ body {
   width: 450px;
   height: 600px;
   padding: 20px;
-  background-color: var(--primary-dark);
+  background-color: var(--primary-dark) transparent;
   color: white;
   position: relative;
+
 }
 h1 {
   font-weight: 500;
